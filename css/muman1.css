@@ -1,0 +1,63 @@
+.left_nav_container {
+    padding: 0;
+    /* margin-top: 110px; */
+    text-align: center;
+    /* line-height: 10vh; */
+}
+
+.left_nav_container a:hover {
+    color: #FEDA62;
+}
+
+.left_nav {
+    width: 80%;
+    margin: auto 10%;
+    height: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 111px;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+
+@keyframes leftmove {
+    0% {
+        background-image: url(../images/left_nav_1.png);
+    }
+    100% {
+        background-image: url(../images/left_nav_2.png);
+    }
+    /* 100% {
+        background-image: url(../images/left_nav_1.png);
+    } */
+}
+
+.left_nav_img {
+    display: block;
+    width: 100%;
+    padding-top: 70%;
+    background-image: url(../images/left_nav_1.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /* animation: leftmove .5s linear infinite; */
+}
+
+.left_nav a {
+    font-size: 3vh;
+    color: white;
+    display: block;
+    margin: 2vh auto;
+}
+
+
+/* 锚点偏移问题 */
+
+.target-fix {
+    position: relative;
+    top: -60px;
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
