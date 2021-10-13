@@ -18,18 +18,16 @@
 </head>
 
 <body>
-    <div class="header col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
-    <!-- 导航栏！ -->
     <div class="nav col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="logo_container col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <a href="homepage">
+            <a href="index">
                 <img class="homepage_logo" src="./images/2021IDEClogo设计.png" alt="">
             </a>
         </div>
         <div class="nav_cells col-lg-9 col-md-9 hidden-sm hidden-xs">
             <ul>
                 <li class='nav_one hover_underline'>
-                    <a href="homepage">HOME</a>
+                    <a href="index">HOME</a>
                 </li>
                 <li class='nav_one hover_underline'>
                     <a href="project-description">PROJECT</a>
@@ -66,6 +64,9 @@
                         </li>
                     </ul>
                 </li>
+                <li class='nav_one hover_underline'>
+                    <a href="lab-notebook">LAB NOTEBOOK</a>
+                </li>
             </ul>
         </div>
         <div class="nav_hidden nav_cells hidden-lg hidden-md col-sm-9 col-xs-9">
@@ -73,41 +74,19 @@
                 <li class="nav_one"><img src="images/nav_little.png" alt="" style='width:7vw'>
                     <ul class="nav_two">
                         <li class="hover_underline">
-                            <a href="homepage">HOME</a>
+                            <a href="index">HOME</a>
                         </li>
                         <li class="hover_underline">
                             <a href="project-description">PROJECT</a>
-                            <ul class="nav_three">
-                                <li>
-                                    <a href="project-description" class="hover_underline">Description</a>
-                                </li>
-                                <li>
-                                    <a href="project-design" class="hover_underline">Design</a>
-                                </li>
-                                <li>
-                                    <a href="project-protocol" class="hover_underline">Protocol</a>
-                                </li>
-                            </ul>
                         </li>
                         <li class="hover_underline">
                             <a href="results">RESULTS</a>
                         </li>
                         <li class="hover_underline">
                             <a href="team-members">TEAM</a>
-                            <ul class="nav_three">
-                                <li>
-                                    <a href="team-members" class="hover_underline">Members</a>
-                                </li>
-                                <li>
-                                    <a href="team-collaborations" class="hover_underline">Collaborations</a>
-                                </li>
-                                <li>
-                                    <a href="team-attributions" class="hover_underline">Attributions</a>
-                                </li>
-                                <li>
-                                    <a href="team-notebook" class="hover_underline">Notebook</a>
-                                </li>
-                            </ul>
+                        </li>
+                        <li class="hover_underline">
+                            <a href="lab-notebook">LAB NOTEBOOK</a>
                         </li>
                     </ul>
                 </li>
@@ -118,13 +97,13 @@
     <div id="teambody">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url(https://2020.igem.org/wiki/images/4/4e/T--NAU-CHINA--wuduifnewu.jpg);">
+                <div class="swiper-slide" style="background-image: url(images/team.jpg);">
                 </div>
-                <div class="swiper-slide" style="background-image: url(https://2020.igem.org/wiki/images/4/4e/T--NAU-CHINA--wuduifnewu.jpg);">
+                <div class="swiper-slide" style="background-image: url(images/team2.jpg);">
                 </div>
-                <div class="swiper-slide" style="background-image: url(https://2020.igem.org/wiki/images/4/4e/T--NAU-CHINA--wuduifnewu.jpg);">
+                <div class="swiper-slide" style="background-image: url(images/team3.jpg);">
                 </div>
-                <div class="swiper-slide" style="background-image: url(https://2020.igem.org/wiki/images/4/4e/T--NAU-CHINA--wuduifnewu.jpg);">
+                <div class="swiper-slide" style="background-image: url(images/team4.jpg);">
                 </div>
             </div>
             <!-- Add Arrows -->
@@ -172,79 +151,87 @@
         </div>
     </div>
     <div class="footer">
-        <div class="footer_img"></div>
-        <div class="footer_menu">
-            <div class="footer_list">
-                <div class="footer_title">
-                    <a href="homepage">
-                        <div class="footer_arrow">—</div>
+        <div class="footer_img col-lg-3 hidden-md hidden-sm hidden-xs"></div>
+        <div class="footer_menu col-lg-8 col-md-12 col-sm-12 col-xs-12">
+            <div class="footer_list ">
+                <div class="footer_title ">
+                    <a href="index.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;HOME</div>
                     </a>
                 </div>
             </div>
-            <div class="footer_list">
-                <div class="footer_title">
-                    <a href="project-description">
-                        <div class="footer_arrow">—</div>
+            <div class="footer_list ">
+                <div class="footer_title ">
+                    <a href="project-description.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;PROJECT</div>
                     </a>
                 </div>
-                <div class="footer_title">
-                    <a href="project-description">
-                        <div class="footer_arrow">—</div>
+                <div class="footer_title ">
+                    <a href="project-description.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;Description</div>
                     </a>
                 </div>
-                <div class="footer_title">
-                    <a href="project-design">
-                        <div class="footer_arrow">—</div>
+                <div class="footer_title ">
+                    <a href="project-design.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;Design</div>
                     </a>
                 </div>
-                <div class="footer_title">
-                    <a href="project-PROTOCOL">
-                        <div class="footer_arrow">—</div>
+                <div class="footer_title ">
+                    <a href="project-PROTOCOL.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;Protocol</div>
                     </a>
                 </div>
             </div>
-            <div class="footer_list">
-                <div class="footer_title">
-                    <a href="results">
-                        <div class="footer_arrow">—</div>
+            <div class="footer_list ">
+                <div class="footer_title ">
+                    <a href="results.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;RESULTS</div>
                     </a>
                 </div>
             </div>
-            <div class="footer_list">
-                <div class="footer_title">
-                    <a href="team-members">
-                        <div class="footer_arrow">—</div>
+            <div class="footer_list ">
+                <div class="footer_title ">
+                    <a href="team-members.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;TEAM</div>
                     </a>
                 </div>
-                <div class="footer_title">
-                    <a href="team-members">
-                        <div class="footer_arrow">—</div>
+                <div class="footer_title ">
+                    <a href="team-members.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;Members</div>
                     </a>
                 </div>
-                <div class="footer_title">
-                    <a href="team-collaborations">
-                        <div class="footer_arrow">—</div>
+                <div class="footer_title ">
+                    <a href="team-collaborations.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;Collaborations</div>
                     </a>
                 </div>
-                <div class="footer_title">
-                    <a href="team-attributions">
-                        <div class="footer_arrow">—</div>
+                <div class="footer_title ">
+                    <a href="team-attributions.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;Attributions</div>
                     </a>
                 </div>
-                <div class="footer_title">
-                    <a href="team-notebook">
-                        <div class="footer_arrow">—</div>
+                <div class="footer_title ">
+                    <a href="team-notebook.html ">
+                        <div class="footer_arrow ">—</div>
                         <div>&nbsp;Notebook</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_list ">
+                <div class="footer_title ">
+                    <a href="lab-notebook">
+                        <div class="footer_arrow ">—</div>
+                        <div>&nbsp;LAB NOTEBOOK</div>
                     </a>
                 </div>
             </div>
